@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Header } from './components/header'
 
 export default function RootLayout({
   children,
@@ -9,8 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        {/* header que ficará em toda pagina */}
-        <h1>Hello World!</h1>
+        <Header />
         {children}
       </body>
     </html>
