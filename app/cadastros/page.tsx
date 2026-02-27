@@ -1,7 +1,7 @@
 export default function(){
     return (
         <div>
-            <form action="">Form Teste</form>
+            <h1>Pagina de cadastro</h1>
         </div>
     )
 }
